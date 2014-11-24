@@ -1,0 +1,15 @@
+{
+  "name": "observability.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/naviance/observability.js",
+  "authors": [
+    "Josh Clanton <josh.clanton@hobsons.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "specs"
+  ]
+}

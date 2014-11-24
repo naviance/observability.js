@@ -1,0 +1,26 @@
+{
+  "name": "observability.js",
+  "version": "1.0.0",
+  "description": "An observer pattern mixin",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naviance/observability.js.git"
+  },
+  "keywords": [
+    "observer",
+    "pattern"
+  ],
+  "author": "Josh Clanton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naviance/observability.js/issues"
+  },
+  "homepage": "https://github.com/naviance/observability.js",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jasmine": "~0.8.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-jshint": "~0.10.0"
+  }
+}
