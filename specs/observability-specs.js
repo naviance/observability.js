@@ -71,6 +71,14 @@ describe("mixinObservability", function() {
 
                 expect(observer).toHaveBeenCalledWith(1, 2, 3, 4);
             });
+
+            it("should not throw when called with no existing observers", function() {
+                var observable = mixinObservability({});
+
+                function withNoObservers () { observable.notifyObservers(); }
+
+                expect(withNoObservers).not.toThrow();
+            });
         });
     });
 });

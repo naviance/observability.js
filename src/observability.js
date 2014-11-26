@@ -11,8 +11,9 @@
             this._observers.push(fn);
         },
         notifyObservers: function () {
-            var notifyArgs = arguments;
+            if (!this._observers) { return; }
 
+            var notifyArgs = arguments;
             this._observers.forEach(function(fn) {
                 fn.apply(null, notifyArgs);
             });
