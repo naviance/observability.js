@@ -44,6 +44,6 @@
     window.mixinObservability = mixinObservability;
 
     if (window.angular) {
-        angular.module("observability.js").value("mixinObservability", mixinObservability);
+        angular.module("observability.js", []).value("mixinObservability", mixinObservability);
     }
 })();
