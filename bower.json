@@ -1,6 +1,7 @@
 {
   "name": "observability.js",
   "version": "1.0.0",
+  "main": "src/observability.js"
   "homepage": "https://github.com/naviance/observability.js",
   "authors": [
     "Josh Clanton <josh.clanton@hobsons.com>"
